@@ -4,9 +4,180 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>MUNAY Homedeco</title>
+	<link rel="stylesheet" href="css/stilo.css">
+	<script src="https://kit.fontawesome.com/7b0440f1bd.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Itim&family=Lato:ital,wght@0,300;1,300&family=Montserrat:ital,wght@0,300;1,300&display=swap" rel="stylesheet">	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-	
+	<header class="header">
+		<div class="header__top--bg">
+			<div class="grid">
+				<div class="header-top">
+					<div class="header-top__social">
+						<ul class="header-top__list">
+							<li class="list__item"><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+							<li class="list__item"><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+						</ul>
+						<p class="list__item list__item--p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Vel similique suscipit aspernatur eius cumque impedit</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="nav">
+			<div class="grid">
+				<nav class="nav__nav">
+					<div class="nav__desktop">
+						<a href="index.html" class="nav__img"><img src="assets/imagotipo.png" alt="Munay"></a>
+						<ul class="nav__ul">
+							<li class="nav__item"><a href="pages/nosotros.html">Nosotros</a></li>
+							<li class="nav__item"><a href="pages/tienda.html">Tienda</a></li>
+							<li class="nav__item"><a href="pages/contacto.html">Contacto</a></li>
+							<li class="nav__item nav__item--submenu">Mi cuenta
+								<ul class="nav__submenu">
+									<li class="submenu__item--second"><a href="pages/login.html">Incia sesión</a></li>
+									<li class="submenu__item--second"><a href="pages/singin.html">Registrate</a></li>
+								</ul>
+							</li>
+							<li class="nav__item"><i class="fas fa-shopping-bag"></i></li>
+							<li class="nav__item"><i class="fas fa-search"></i></li>
+							<!--<li class="nav__item">
+								<form action="" autocomplete="on">
+									<input id="search" name="search" type="text" placeholder="Qué estas buscando?">
+									<input id="search_submit" value="Buscar" type="submit">
+								</form>
+							</li>-->
+						</ul>
+					</div>
+					<!--RESPONSIVE NAV-->
+					<div class="nav__responsive">
+						<div class="grid">
+							<ul class="nav__responsive-ul-920">
+								<div class="nav__responsive-button-container">
+									<div class="nav__responsive-button fas fa-bars"></div> 
+								</div>
+								<div class="nav__item-container">
+									<li class="nav__responsive-item"><a href="pages/nosotros.html"><i class="fas fa-user-friends"></i> Nosotros</a></li>
+									<li class="nav__responsive-item"><a href="pages/tienda.html"><i class="fas fa-store"></i> Tienda</a></li>
+									<li class="nav__responsive-item"><a href="pages/contacto.html"><i class="fas fa-envelope"></i> Contacto</a></li>
+									<li class="nav__responsive-item"><a href="pages/login.html"><i class="fas fa-user"></i> Mi cuenta</a></li>
+									<li class="nav__responsive-item"><a href="#"><i class="fas fa-shopping-bag"></i>Carrito</a></li>
+									<li class="nav__responsive-item"><a href="#"><i class="fas fa-search"></i>Buscar</a></li>
+									<!--<ul class="nav__ul nav__ul--second">
+											<li class="nav__responsive-item nav__responsive-item--second"><a href="#">Incia sesión</a></li>
+											<li class="nav__responsive-item nav__responsive-item--second"><a href="#">Registrate</a></li>
+										</ul>-->
+								</div>
+							</ul>
+						</div>
+					</div>
+					<!--FIN RESPONSIVE NAV -->
+				</nav>
+			</div>
+		</div>
+	</header>
+	<section class="banner">
+		<div class="grid">
+			<div class="banner__container">
+				<div class="banner__description animate__animated animate__heartBeat">
+					<h1 class="banner__title">tienda online de <br>decoración</h1>
+					<h2 class="banner__subtitle">sensaciones que despiertan tu corazón</h2>
+					<h3 class="banner__button"><a href="pages/tienda.html">Ir a la tienda</a></h3>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section2">
+		<div class="grid">
+			<div class="section2__container">
+				<h4 class="section2__title" data-aos="fade-right" data-aos-duration="2000" data-aos-offset="200">categorías</h4>
+				<ul class="section2__list" data-aos="fade-right" data-aos-duration="2000" data-aos-offset="200">
+					<div class="section2__itema">
+						<li class="section2__item1">
+							<a href="pages/categorias/todos.html"><img src="assets/modelo.jpg" alt="todos los productos"></a>
+							<h3>todos los productos</h3>
+						</li>
+						<li class="section2__item2">
+							<a href="pages/categorias/velas.html"><img src="assets/modelo1.jpg" alt="velas"></a>
+							<h3>velas</h3>
+						</li>
+					</div>
+					<div class="section2__itemb">
+						<li class="section2__item3">
+							<a href="pages/categorias/difu.html"><img src="assets/modelo1.jpg" alt="difusores"></a>
+							<h3>difusores</h3>
+						</li>
+						<li class="section2__item4">
+							<a href="pages/categorias/madera.html"><img src="assets/modelo.jpg" alt="pintura en madera"></a>
+							<h3>Pintura en madera</h3>
+						</li>
+					</div>	
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section class="section3">
+		<div class="grid">
+			<div class="section3__container">
+				<h4 class="section3__title" data-aos="fade-left" data-aos-duration="2000" data-aos-offset="200">tendencias</h4>
+				<div class="section3items" data-aos="fade-left" data-aos-duration="2000" data-aos-offset="200">
+					<div class="section3items__item1">
+						<a href="#" class="item1__logo"><img src="assets/modelo_producto.jpg" alt="item1"></a>
+						<ul class="item1__list">
+							<li class="item1__des"><h5>Nombre</h5></li>
+							<!--<li class="item1__des"><p>$000.00</p></li>-->
+							<li class="item__des--button"><a href="#">Ver producto</a></li>
+						</ul>
+					</div>
+					<div class="section3items__item2">
+						<a href="#" class="item2__logo"><img src="assets/modelo_producto.jpg" alt="item2"></a>
+						<ul class="item2__list">
+							<li class="item2__des"><h5>Nombre</h5></li>
+							<!--<li class="item2__des"><p>$000.00</p></li>-->
+							<li class="item__des--button"><a href="#">Ver producto</a></li>
+						</ul>
+					</div>
+					<div class="section3items__item3">
+						<a href="#" class="item3__logo"><img src="assets/modelo_producto.jpg" alt="item3"></a>
+						<ul class="item3__list">
+							<li class="item3__des"><h5>Nombre</h5></li>
+							<!--<li class="item3__des"><p>$000.00</p></li>-->
+							<li class="item__des--button"><a href="#"">Ver producto</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="grid">
+			<div class="footer__container">
+				<div class="footer__description">  
+					<h3 class="footer__title">Munay Homedeco</h3>
+					<p class="footer__subtitle">Seguinos en nuestras redes</p>
+					<ul class="footer__socials">
+						<li><a href="https://www.instagram.com/" class="footer__links"  target="_blank"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="https://www.facebook.com/" class="footer__links" target="_blank"><i class="fab fa-facebook"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom__container">
+			<div class="grid">
+				<div class="footer__bottom">
+					<p>
+						Copyright &copy;2021 – Munay Homedeco – Designed by <span>facundo savignone</span>  
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 </body>
 </html>
